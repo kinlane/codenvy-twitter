@@ -1,35 +1,22 @@
+
 {
 	"name": "Twitter",
-	"description": "Created in 2006, Twitter is a global real-time communications platform with 400 million monthly visitors to twitter.com, more than 200 million monthly active users around the world. We see a billion tweets every 2.5 days on every conceivable topic. World leaders, major athletes, star performers, news organizations and entertainment outlets are among the millions of active Twitter accounts through which users can truly get the pulse of the planet.",
+	"description": "Twitter is a global real-time communications platform with 400 million monthly visitors to twitter.com, more than 200 million monthly active users around the world.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/266_logo.png",
-	"tags": ["communication",
-	"media",
-	"messaging",
-	"micro-blog",
-	"microblogging",
-	"social",
-	"social data",
-	"social media",
-	"social networking"],
-	"created": "2015-06-12",
-	"modified": "2015-06-12",
+	"tags": ["messaging",
+	"social"],
+	"created": "2015-06-20",
+	"modified": "2015-06-20",
 	"url": "http://theapistack.com/twitter/apis.json",
 	"specificationVersion": "0.14",
 	"apis": [{
 		"name": "Twitter",
-		"description": "Created in 2006, Twitter is a global real-time communications platform with 400 million monthly visitors to twitter.com, more than 200 million monthly active users around the world. We see a billion tweets every 2.5 days on every conceivable topic. World leaders, major athletes, star performers, news organizations and entertainment outlets are among the millions of active Twitter accounts through which users can truly get the pulse of the planet. ",
+		"description": "Twitter is a global real-time communications platform with 400 million monthly visitors to twitter.com, more than 200 million monthly active users around the world.",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/266_logo.png",
 		"humanURL": "https://twitter.com/",
 		"baseURL": "https://twitter.com/",
-		"tags": ["communication",
-		"media",
-		"messaging",
-		"micro-blog",
-		"microblogging",
-		"social",
-		"social data",
-		"social media",
-		"social networking"],
+		"tags": ["messaging",
+		"social"],
 		"properties": [{
 			"type": "X-net-library",
 			"url": "https://tweetinvi.codeplex.com/"
@@ -100,10 +87,6 @@
 		},
 		{
 			"type": "X-github",
-			"url": "https://github.com/twitter"
-		},
-		{
-			"type": "X-github",
 			"url": "https://github.com/twitter/"
 		},
 		{
@@ -156,15 +139,15 @@
 		},
 		{
 			"type": "X-twitter",
-			"url": "https://twitter.com/twitterapi"
+			"url": "https://twitter.com/twitterapi/"
 		},
 		{
 			"type": "X-twitter",
-			"url": "https://twitter.com/TwitterEng"
+			"url": "https://twitter.com/twittereng/"
 		}],
 		"contact": [{
 			"FN": "Twitter",
-			"X-twitter": "https://twitter.com/TwitterEng"
+			"X-twitter": "https://twitter.com/twittereng/"
 		}]
 	},
 	{
@@ -174,8 +157,12 @@
 		"humanURL": "https://dev.twitter.com/rest/public",
 		"baseURL": "https://twitter.com/",
 		"properties": [{
-			"type": "swagger",
+			"type": "Swagger",
 			"url": "http://theapistack.com/data/twitter/twitter-api-swagger.json"
+		}],
+		"contact": [{
+			"FN": "Twitter",
+			"X-twitter": "https://twitter.com/twittereng/"
 		}]
 	}],
 	"include": [],
